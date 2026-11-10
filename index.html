@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blossom Boutique - Fresh Flowers</title>
+     <!-- Google Fonts link -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🌸 Blossom Boutique</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#special">Special Occasions</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="banner" id="home">        
+                <div class="hero-box">
+                    <h1 class="hero-title">Beautiful Flowers Delivered</h1>
+                
+            
+                    <div class="badge">
+                        🌸 Farm Fresh Guaranteed
+                    </div>
+                
+                    
+                    <div class="hero-description">
+                        <p>🌼 Sourced fresh every morning from trusted local farms and top international growers.</p>
+                        <p>✂️ Handpicked at peak bloom by experienced florists to ensure ultimate freshness.</p>
+                        <p>🚚 Delivered next-day across the UK — directly from our garden to your door.</p>
+                    </div>
+                
+                    <!-- Buttons -->
+                    <div class="hero-buttons">
+                        <button onclick="scrollToShop()">Shop Now</button>
+                        <button onclick="scrollToAbout()">Learn More</button>
+                    </div>
+                </div>
+                
+            </div>
+        
+            <!-- Additional Images Under the Main Banner -->
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; margin-top: 40px; gap: 20px;">
+                <img src="fresh-flowers1.jpg" 
+                     alt="Fresh Flower Farm" class="fade-in" style="width: 300px; height: auto; border-radius: 10px;">
+                <img src="fresh-flowers2.jpg" 
+                     alt="Florist Picking Flowers" class="fade-in" style="width: 300px; height: auto; border-radius: 10px;">
+                <img src="fresh-flowers3.jpg" 
+                     alt="Bouquet Preparation" class="fade-in" style="width: 300px; height: auto; border-radius: 10px;">
+            </div>
+    </section>
+
+    <section class="shop" id="shop">
+        <h2>Our Best Sellers</h2>
+        <div class="product-grid">
+            <div class="product-card">
+            
+                <img src="roses.jpg" alt="Bouquet of Roses">
+                <h3>Luxury Roses</h3>
+                <p>£19.99</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="tulips.jpg" alt="Bouquet of Tulips">
+                <h3>Spring Tulips</h3>
+                <p>£14.99</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="lilies.jpg" alt="Bouquet of Lilies">
+                <h3>Elegant Lilies</h3>
+                <p>£14.99</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                
+                <img src="sunflowers.jpg" alt="Bright Sunflowers">
+                <h3>Bright Sunflowers</h3>
+                <p>£19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="orchids.jpg" alt="Elegant Orchids">
+                <h3>Elegant Orchids</h3>
+                <p>£14.99</p>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="daisies.jpg" alt="Charming Daisies">
+                <h3>Charming Daisies</h3>
+                <p>£9.99</p>
+                <button>Add to Cart</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="special" id="special">
+        <h2>Special Occasion Bouquets</h2>
+        <p>Make every moment unforgettable with our stunning, handcrafted bouquets for special occasions.</p>
+    
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="wedding.jpg" alt="Wedding Bouquet">
+                <h3>Elegant Wedding Bouquet</h3>
+                <p>£29.99</p>
+                <button>Add to Cart</button>
+            </div>
+    
+            <div class="product-card">
+                <img src="birthday.jpg" alt="Birthday Surprise Bouquet">
+                <h3>Birthday Surprise Bouquet</h3>
+                <p>£21.99</p>
+                <button>Add to Cart</button>
+            </div>
+    
+            <div class="product-card">
+                <img src="anniversary.jpg" alt="Anniversary Roses">
+                <h3>Anniversary Roses</h3>
+                <p>£24.99</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="mixed-bouquet.jpg" alt="Mixed Seasonal Bouquet">
+                <h3>Seasonal Bouquet</h3>
+                <p>£24.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+    
+        <div class="about-container">
+            <div class="about-text">
+                <p>At <strong>Blossom Boutique</strong>, our passion for flowers is rooted in generations of tradition. 
+                Every bloom we offer is hand-selected directly from eco-friendly farms across the UK and Europe.</p>
+    
+                <p>We believe flowers have the power to transform spaces, uplift moods, and create lifelong memories.
+                That’s why every bouquet is carefully designed by our expert florists, ensuring only the freshest and most beautiful arrangements for every special moment.</p>
+    
+                <p>Whether it's a birthday, wedding, anniversary, or a simple "thinking of you," Blossom Boutique delivers your emotions with elegance and care.</p>
+    
+                <p><strong>Our Promise:</strong> Freshness Guaranteed | Eco-Friendly Sourcing | Fast Next-Day Delivery</p>
+            </div>
+    
+            <div class="about-image">
+                <img src="florist.jpg" alt="Florist arranging flowers">
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@blossomboutique.co.uk</p>
+        <p>Phone: +44 1234 567890</p>
+    
+        <!-- Social Icons -->
+        <div class="social-icons">
+            <i class="fab fa-instagram" title="Instagram"></i>
+            <i class="fab fa-facebook-f" title="Facebook"></i>
+            <i class="fas fa-envelope" title="Email"></i>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 Blossom Boutique. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <div id="cart" class="cart hidden">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total">Total: £0.00</p>
+      </div>
+      
+
+</body>
+</html>
+
